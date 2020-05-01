@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.Similar_Items {
+  display: inline-flex;
+}
+
+.Customers_Also_Bought {
+  display: inline-flex;
+}
