@@ -1,7 +1,7 @@
 import React from "react";
-import Similar from "../src/Components/Similar_Items_Component.js";
-import AlsoBought from "../src/Components/Customers_Also_Bought.js";
-import "../src/App.css";
+import Similar from '../src/Component/Similar_Items_Component.js';
+import AlsoBought from '../src/Component/Customers_Also_Bought.js';
+import "./App.css";
 // import "./styles.css";
 
 class Main extends React.Component {
@@ -20,20 +20,20 @@ class Main extends React.Component {
 
   tick() {
     this.setState({
-      date: new Date(),
+      date: new Date(), 
     });
   }
 
   render() {
     return (
       <div className="App">
-        <header>RECOMMENDED FOR YOU</header>
-        <button>Similar Items</button>
-        <div />
+        <header className="Title">RECOMMENDED FOR YOU</header>
+        <button className="Button1">Similar Items</button>
+        <button className="Button2">Customers Also Bought</button>
         <Similar/>
-        <button>Customers Also Bought</button>
-        <AlsoBought />
-        <button>Shop All Similar Items</button>
+        <AlsoBought /> 
+        <div className="LowerBox"/>
+        <button id="Button3">Shop All Similar Items</button>
         </div>
     );
   }
