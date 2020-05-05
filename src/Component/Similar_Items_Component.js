@@ -4,7 +4,7 @@ import React from "react";
 // import FormControlLabel from "@material-ui/core/FormControlLabel";
 // import FormControl from "@material-ui/core/FormControl";
 // import ToggleButton from 'react-bootstrap/ToggleButton'
-import "../App.css";
+// import "../App.css";
 
 export default function Similar() {
   return (

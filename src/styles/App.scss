@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+  .LowerBox{
+    align-items: 5%;
+  }
+
+.carousel-caption {
+    color: black;
+    
+  }
+
+  .OuterBox {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width:  60%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  .LowerBox {
+    text-align: center;
+    align-items: center;
+    width:  60%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  #Button3{
+    background-color: white;
+    border-color: white;
+  }
+  .ItemBox {
+    padding:15px 10px 7px 19px
+  }
+  .ItemName {
+    font-size: 13px;
+  }
+  .Price {
+    font-size: 15px
+  }
+  .Title{
+    font-size: 32px;
+  }
+  .Image {
+    width:40%;
+    height: auto;
+  }
+  
+  
+ 
